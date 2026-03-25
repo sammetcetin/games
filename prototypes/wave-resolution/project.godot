@@ -1,0 +1,21 @@
+; Engine configuration file.
+; PROTOTYPE - NOT FOR PRODUCTION
+; Question: Is wave resolution satisfying with 2-3 light player decisions?
+; Date: 2026-03-26
+
+config_version=5
+
+[application]
+config/name="WaveResolutionPrototype"
+config/description="Prototype: Does wave resolution feel satisfying with 2-3 decisions?"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1100
+window/size/viewport_height=700
+window/size/resizable=false
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
