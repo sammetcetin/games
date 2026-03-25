@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Wave Resolution Prototype (run)",
+      "runtimeExecutable": "C:\\Users\\samme\\OneDrive\\Masaüstü\\Godot_v4.6.1-stable_win64",
+      "runtimeArgs": ["--path", "prototypes/wave-resolution"],
+      "port": 6007
+    },
+    {
+      "name": "Wave Resolution Prototype (editor)",
+      "runtimeExecutable": "C:\\Users\\samme\\OneDrive\\Masaüstü\\Godot_v4.6.1-stable_win64",
+      "runtimeArgs": ["--path", "prototypes/wave-resolution", "--editor"],
+      "port": 6007
+    }
+  ]
+}
